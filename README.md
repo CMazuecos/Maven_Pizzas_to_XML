@@ -1,5 +1,5 @@
 # Maven_Pizzas_to_XML
-Este programa consistirá en que el programa hará un informe sobre los ficheros de la pizzería Maven, limpiará los datos y hará una recomendación de compra de ingredientes para cada semana.
+Este programa hará un informe sobre los ficheros de la pizzería Maven, limpiará los datos y hará una recomendación de compra de ingredientes para cada semana.
 ### Archivos necesitados
 - 'data_dictionary.csv': archivo csv que explican cada columna de los diferentes csvs.
 - 'pizzas_to_xml.py': programa python que hace el informe de datos y la recomendación.
