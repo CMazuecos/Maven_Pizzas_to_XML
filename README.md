@@ -9,8 +9,7 @@ Este programa hará un informe sobre los ficheros de la pizzería Maven, limpiar
 - 'pizzas.csv': archivo que registra detalles sobre cada pizza id.
 - 'requirements.txt': contiene todos las librerías necesarias para el correcto funcionamiento del programa.
 ### Outputs
-- Fichero 'Informe_Calidad_Datos.txt': fichero txt con un informe con el número de Nulls, tipología de datos y número de Nans en cada columna de cada fichero.
-- Fichero 'ingredients_per_week.csv': fichero csv con la compra de los ingredientes necesarios para cada semana.
+- Fichero 'pizzas.xml': fichero xml con la compra de los ingredientes necesarios para cada semana y la tipología de datos de cada columna de los ficheros.
 ### Forma de ejecución
 - Descargamos los archivos csv, el requirements.txt y el archivo python en una misma carpeta.
 - Ejecutar en la terminal 'pip install requirements.txt'.
@@ -21,7 +20,7 @@ Este programa hará un informe sobre los ficheros de la pizzería Maven, limpiar
 - Cuando se organizan los pedidos por semanas, se ve que pizza contiene cada pedido.
 - De cada pizza, se sacan los ingredientes de cada pizza y se van añadiendo a los pedidos de cada semana.
 - Cuando ya se tiene la recomendación hecha, se escirbe en un archivo xml y se muestra por pantalla la compra recomendada para cada semana.  
-### Archivo xml
+### Archivo pizzas.xml
 - En primer lugar, devuelve un informe de los datasets. Cada rama es un fichero y las ramas de estos las columnas con su tipología de datos.
 - La siguiente rama que sale de la raíz es con la recomendación. Cada rama que sale de estas, es una semana con cada uno de sus ingredientes.
 ### Limpieza ficheros
